@@ -1,6 +1,6 @@
 import { Manufacturer  } from "./Manufacturer.js";
 
-class Stove extends Manufacturer {
+export class Stove extends Manufacturer {
   stoves;
   oven;
   lighters;
