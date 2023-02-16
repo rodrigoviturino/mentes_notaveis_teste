@@ -11,7 +11,7 @@ export class Manufacturer {
     this.brand = brand;
   }
 
-  getFabricante(){
+  getManufacturer(){
     return `
       color: ${this.color ? $this.color : 'Color Not specified'},
       height: ${this.height ? $this.height : 'Height Not specified'},
