@@ -13,9 +13,9 @@ export class Manufacturer {
 
   getManufacturer(){
     return `
-      color: ${this.color ? $this.color : 'Color Not specified'},
-      height: ${this.height ? $this.height : 'Height Not specified'},
-      width: ${this.width ? $this.width : 'Width Not specified'},
+      color: ${this.color ? $this.color : 'Color Not specified'}
+      height: ${this.height ? $this.height : 'Height Not specified'}
+      width: ${this.width ? $this.width : 'Width Not specified'}
       brand: ${this.brand ? $this.brand : 'Brand Not specified'}
     `;
   }

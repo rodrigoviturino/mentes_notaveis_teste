@@ -21,4 +21,16 @@ class Stove extends Manufacturer {
 
   }
 
+  getStoveSpecifications(){
+    return `
+      brand: ${this.brand}
+      stoves: ${this.stoves}
+      oven: ${this.oven}
+      lighters: ${this.lighters.map((lighter) => lighter.getManufacturer()).join(' ') }
+      ovenLamp: ${this.ovenLamp}
+      ovenLampButton: ${this.ovenLampButton}
+      ovenGlass: ${this.ovenGlass.getManufacturer()}
+    `;
+  }
+
 };
