@@ -1,0 +1,21 @@
+{
+  "name": "teste-pratico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoviturino/mentes_notaveis_teste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigoviturino/mentes_notaveis_teste/issues"
+  },
+  "homepage": "https://github.com/rodrigoviturino/mentes_notaveis_teste#readme"
+}
